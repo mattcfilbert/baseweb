@@ -47,6 +47,7 @@ export default function Filter(props: FilterProps) {
 
   return (
     <StatefulPopover
+      onClose={onClose}
       placement={PLACEMENT.bottom}
       stateReducer={(_, nextState) => {
         if (props.disabled) {

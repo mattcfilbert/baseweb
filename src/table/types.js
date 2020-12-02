@@ -58,6 +58,8 @@ export type FilterProps = {|
   hasCloseButton?: boolean,
   /** Callback for when the 'reset' button is clicked. */
   onReset?: () => mixed,
+  /** Callback for when the filter is closed. */
+  onClose?: () => mixed,
   /** Callback for when the 'select all' button is clicked. */
   onSelectAll?: () => mixed,
   overrides?: {
